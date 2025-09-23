@@ -13,9 +13,7 @@ jobs:
     # Run all steps from the app subfolder
     defaults:
       run:
-
         working-directory: glada-svansar
-
 
     steps:
       - name: Checkout repository
@@ -27,9 +25,7 @@ jobs:
           node-version: 20
           cache: npm
           # cache path must match where the lock file actually is
-
-          cache-dependency-path: glada-svansar/package-lock.json
-
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
         run: npm ci
