@@ -1,7 +1,16 @@
-.background{
-    min-height: 100vh;
-    background-image: url('/home-background.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.background {
+  min-height: 100vh;
+  background-image: url("/home-background.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  font-family: "Alan Sans", sans-serif;
+  font-size: 5rem;
+  font-optical-sizing: auto;
+
 }

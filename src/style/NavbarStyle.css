@@ -1,0 +1,22 @@
+.Navbar-body {
+  display: flex;
+  justify-content: center;
+  
+ }
+
+.Navbar-body nav {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.Navbar-body a{
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.Navbar-body a.active{
+    background: black;
+    color: white;
+}
