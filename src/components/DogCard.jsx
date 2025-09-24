@@ -1,4 +1,4 @@
-import "../style/DogCardStyle.css"
+import "../style/DogCard.css"
 
 function DogCard(){
     return(

@@ -1,5 +1,5 @@
-import "../style/AboutStyle.css"
-function About(){
+import "../style/OmOss.css"
+function OmOss(){
     return(
         <div className="about-page">
             
@@ -10,4 +10,4 @@ function About(){
         
     );
 }
-export default About;
+export default OmOss;
