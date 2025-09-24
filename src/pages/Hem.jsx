@@ -1,6 +1,6 @@
-import "../style/HomeStyle.css";
+import "../style/Hem.css";
 
-function Home(){
+function Hem(){
     return(
         <div className="background">
            <div className="hero"> 
@@ -12,4 +12,4 @@ function Home(){
 
     );
 }
-export default Home;
+export default Hem;
