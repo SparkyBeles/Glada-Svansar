@@ -18,8 +18,8 @@ function Navbar() {
       
       <nav className={`nav-links ${isOpen ? "open" : ""}`}>
         <NavLink to="/" onClick={() => setIsOpen(false)}>Hem</NavLink>
-        <NavLink to="/OmOss" onClick={() => setIsOpen(false)}>Om Oss</NavLink>
-        <NavLink to="/hundar" onClick={() => setIsOpen(false)}>Hundar</NavLink>
+        <NavLink to="/about" onClick={() => setIsOpen(false)}>Om Oss</NavLink>
+        <NavLink to="/dogs" onClick={() => setIsOpen(false)}>Hundar</NavLink>
       </nav>
     </div>
   );

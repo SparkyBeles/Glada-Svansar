@@ -1,19 +1,19 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AppLayout from "./layouts/AppLayout";
-import OmOss from "./pages/OmOss";
-import Hundar from "./pages/Hundar";
-import Hem from "./pages/Hem";
-import Hund from "./pages/Hund";
+import About from "./pages/About";
+import Dogs from "./pages/Dogs";
+import Home from "./pages/Home";
+import Dog from "./pages/Dog";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route element={<AppLayout />}>
-          <Route index element={<Hem />}></Route>
-          <Route path="/OmOss" element={<OmOss />}></Route>
-          <Route path="/Hundar" element={<Hundar />}></Route>
-          <Route path="/Hund" element={<Hund />}></Route>
+          <Route index element={<Home />}></Route>
+          <Route path="/About" element={<About />}></Route>
+          <Route path="/Dogs" element={<Dogs />}></Route>
+          <Route path="/Dog" element={<Dog />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
