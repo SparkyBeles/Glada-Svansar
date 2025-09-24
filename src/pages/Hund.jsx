@@ -1,6 +1,6 @@
-function DogPage(){
+function Hund(){
     return(
         <h1>DogPage</h1>
     );
 }
-export default DogPage;
+export default Hund;
