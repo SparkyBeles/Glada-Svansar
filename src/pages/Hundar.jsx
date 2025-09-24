@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../style/hundar.css"
+import "../style/Hundar.css"
 
 function Hundar(){
     const [img,setImg] = useState([]);
