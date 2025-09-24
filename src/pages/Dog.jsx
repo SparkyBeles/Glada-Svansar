@@ -1,6 +1,6 @@
-function Hund(){
+function Dog(){
     return(
         <h1>DogPage</h1>
     );
 }
-export default Hund;
+export default Dog;
