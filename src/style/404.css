@@ -1,0 +1,18 @@
+/* 404.css */
+.background-404 {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  align-items: start;
+  padding: 16px;
+  background: center / contain no-repeat url("/bitmap.svg");
+}
+
+.h1-404 {
+  margin: 30px;
+  text-align: center;
+  font-size: clamp(24px, 5vw, 56px);
+  color: #000000;
+  font-family: "Alan Sans", sans-serif;
+}
