@@ -1,4 +1,4 @@
-.background {
+.background-home {
   min-height: 100vh;
   background-image: url("/home-background.svg");
   background-size: cover;
@@ -6,11 +6,22 @@
   background-repeat: no-repeat;
 }
 
-.hero{
+.hero-h1 {
   display: flex;
   justify-content: center;
   font-family: "Alan Sans", sans-serif;
   font-size: 5rem;
   font-optical-sizing: auto;
+}
 
+@media screen and (max-width: 1092px) {
+  .hero-h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .hero-h1 {
+    font-size: 1rem;
+  }
 }

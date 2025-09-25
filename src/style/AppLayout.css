@@ -1,10 +1,8 @@
-.layout{
-    background-image: url("/Vector.svg");
-    justify-content: flex-end;
-  
+.layout {
+  background-image: url("../Vector.svg");
+  justify-content: flex-end;
 }
 
-.page{
-    padding-top: 1rem;
-    
+.page {
+  padding-top: 1rem;
 }

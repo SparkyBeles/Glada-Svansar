@@ -1,0 +1,26 @@
+.background-dogs {
+  display: flex;
+  justify-content: center;
+  background-image: url("/Vector.svg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+  width: min(1100px, 100%);
+}
+.grid-item {
+  width: 100%;
+  aspect-ratio: 1/1;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  background: pink;
+}
