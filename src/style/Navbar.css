@@ -1,11 +1,10 @@
 .Navbar-body {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   position: relative;
 }
-
 
 .nav-links {
   display: flex;
@@ -13,7 +12,7 @@
 }
 
 .Navbar-body a {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border: 1px solid black;
   border-radius: 6px;
   text-decoration: none;
@@ -25,21 +24,19 @@
   color: white;
 }
 
-
 .hamburger {
-  display: none; 
+  display: none;
   font-size: 24px;
   background: none;
   border: none;
   cursor: pointer;
   position: absolute;
-  right: 20px; 
+  right: 20px;
 }
-
 
 @media (max-width: 768px) {
   .nav-links {
-    display: none; 
+    display: none;
     flex-direction: column;
     gap: 0.5rem;
     background: white;
@@ -52,10 +49,10 @@
   }
 
   .nav-links.open {
-    display: flex; 
+    display: flex;
   }
 
   .hamburger {
-    display: block; 
+    display: block;
   }
 }
