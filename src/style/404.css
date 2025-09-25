@@ -5,7 +5,7 @@
   justify-items: center;
   align-items: start;
   padding: 16px;
-  background: center / contain no-repeat url("/bitmap.svg");
+  background: center / contain no-repeat url("/NotFound.svg");
 }
 
 .h1-404 {
