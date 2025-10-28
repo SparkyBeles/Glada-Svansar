@@ -2,4 +2,5 @@
 
 <div align="center"><h1>Glada Svansar</h1></div>
 
-<h3>A simple responsive website for a dog daycare, featuring a clean and user-friendly layout </h3>
+<h3>A simple responsive website for a dog daycare, featuring a clean and user friendly layout </h3>
+Link for the project https://glada-svansar.vercel.app/
